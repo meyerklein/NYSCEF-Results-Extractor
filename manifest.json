@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "NYSCEF Results Extractor",
-  "version": "1.0",
+  "version": "1.2.0",
   "description": "Extracts NYSCEF case tables into a clean JSON format and copies to clipboard.",
   "content_scripts": [
     {
