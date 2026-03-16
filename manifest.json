@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "NYSCEF Results Extractor
+  "version": "1.0",
+  "description": "Extracts NYSCEF case tables into a clean JSON format and copies to clipboard.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://iapps.courts.state.ny.us/*"
+      ], 
+      "js": ["content.js"]
+    }
+  ]
+}
